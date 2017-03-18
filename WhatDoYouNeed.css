@@ -1,24 +1,36 @@
-body{background-color: #333;
+body{background-color: #fff;
 	background-repeat: repeat-x;
-	color: #fff;
+	;
 }
 h1{position: absolute;
-	right: 100px;
-	left:330px;
+	right: 425px;
+	left:355px;
+	
 
 }
 input{
 	position: absolute;
 	top: 130px;
-	left: 400px;
+	left: 485px;
 	right: 100px;
-	bottom: 290px;
+	bottom: 400px;
 	height:35px; 
 	width:150px;
 }
+select{
+	position: absolute;
+	top: 130px;
+	left: 333px;
+	right: 100px;
+	bottom: 500px;
+	height:35px; 
+	width:150px;
+
+}
+
 button{
 	position: absolute;
-	left: 552px;
+	left: 636px;
 	right: 100px;
 	bottom: 426px;
 
