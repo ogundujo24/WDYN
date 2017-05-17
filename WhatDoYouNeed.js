@@ -1,7 +1,8 @@
-$(document).ready(function() {
-	$("button").click(function(event) {
-		/* Act on the event */
-		alert("Request has been sent! We look forward to working with you all to better serve the homeless community!");
-	});
-	
-});
+var submitBtn = document.getElementById("submitBtn");
+
+	function submitClick() {
+		var firebaseRef = firebase.database().ref();
+		var messageText = $(mainText).val()
+var mainText = document.getElementById("mainText").value;
+		firebaseRef.push().set(mainText);
+	}
